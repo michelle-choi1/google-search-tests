@@ -9,6 +9,9 @@ exports.HomePage = class HomePage {
     this.page = page;
     this.searchBar = page.getByLabel('Search', { exact: true });
     this.resultStats = page.locator('#result-stats');
+
+    // Specific to Test Suite #2
+    // Buttons to reach Google Books
     this.allAppsButton = page.getByLabel("Google apps");
     this.booksButton = page.frameLocator('iframe[name="app"]').getByRole('link', { name: 'Books' });
   }
