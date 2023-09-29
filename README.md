@@ -2,9 +2,9 @@
 
 ## Test cases
 1. Test to search for a product/object and ensure it is returning the expected result
-  - Test Suite #1
+  - `tests/1-product-search.spec.js` = Test Suite #1
 2. Test to search for a book under Google Books
-  - Test Suite #2
+  - `tests/2-book-search.spec.js` = Test Suite #2
 
 ## File Structure
 - `pages/` - Page Object Model files
