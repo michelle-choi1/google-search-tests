@@ -16,7 +16,7 @@ test.describe('3. Search for a flight', () => {
     const homePage = new HomePage(page);
     const resultsPage = new ResultsPage(page);
   
-    // Search for an item
+    // Search for a flight to "anywhere"
     await homePage.search('flights to anywhere');
 
     // Expect Google Flights-specific form fields
