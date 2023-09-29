@@ -14,6 +14,8 @@
 3. Test to search for a book under Google Books
 4. Test to add a book to my library in Google Books (but not logging in)
   - `tests/2-book-search.spec.js` = Test Suite #2
+5. Test to search for flights to "anywhere" and ensure results are returned using Google Flights
+  - `tests/3-flight-search.spec.js` = Test Suite #3
 
 ## File Structure
 - `pages/` - Page Object Model files
